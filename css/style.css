@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+:root{
+    --blue: rgb(103, 220, 255);
+    --pink: rgb(224, 36, 168);
+}
+
+body{
+    background: #c8c8c8;
+    width: 70%;
+    margin: 20px auto;
+    box-shadow: 1px 2px 15px 5px grey;
+}
+
+main{
+    background: white;
+}
+
+/*-----------------HEADER-------------*/
+.boiteHaut{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre{
+    display: flex;
+    margin: 1% 0 1.5% 1%;
+    text-align: center;
+}
+
+h1{
+    font-size: 45px;
+    
+}
+
+.sousTitre{
+    color: var(--pink);
+    text-align: center;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.aide{
+    position: relative;
+    text-align: center;
+    color: #67dcff;
+    font-size: 2em;
+}
+
+.number{
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+    color: var(--blue);
+}
+
+.monCompte{
+    background: var(--blue);
+    text-align: center;
+    padding: 0 1%;
+    margin: 0 0 .5% 0;
+    color: white;
+    width: 30%;
+}
+
+.compte{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*--------menu--------*/
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--blue);
+    height: 60px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.30em;
+}
+
+ul a:hover{
+    background: var(--pink);
+    width: 50%;
+}
+
+/*----------------SECTION--------------*/
+.singer{ /*Bandeau*/
+    width: 100%;
+}
+
+h2{
+    color: var(--blue);
+}
+
+#presentation{
+    display: flex;
+    margin: 2% 0;
+      
+}
+
+.paiement{
+    margin: 0 0 0 2%;
+}
+
+.qui{
+    /*padding: 0 20%;*/
+}
+
+.services{
+    margin: 0 4% 0 0;
+}
+
+.sousServices{
+    display: flex;
+    margin: 8% 0;
+    
+}
+
+.txtPay{
+    margin: 4% 0;
+}
+
+.txtQui{
+    margin: 2% 0 0 0;
+}
+
+.txtServices{
+    margin: 0 0 0 15%;
+}
+
+.bordure{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 0 5% 0 5%;
+    border-color: #d1d1d1;
+}
+
+/*---------------ARTICLES----------------*/
+#categorie{
+    display: flex;
+}
+
+h3{
+    background: #cfcfcf; 
+    text-align: center;
+}
+
+.bonPlan{
+    margin: 0 2% 3% 2%;
+    border-radius: 2% 2% 2% 2%;
+    border: 1px solid white;
+    box-shadow: 1px 2px 15px 5px lightgrey;    
+}
+
+.coeur{
+    margin: 0 2% 3% 2%; 
+    border: 1px solid white;
+    border-radius: 2% 2% 2% 2%;
+    box-shadow: 1px 2px 15px 5px lightgrey;
+
+}
+
+.plaisir{
+    margin: 0 2% 3% 2%;   
+    border: 1px solid white;
+    border-radius: 2% 2% 2% 2%;
+    box-shadow: 1px 2px 15px 5px lightgrey;
+
+}
+
+.bloc{
+    display: flex;
+    margin: 4% 0 0 3%;
+}
+
+.txtBloc{
+    margin: 1% 3%;
+}
+
+/*---------------FOOTER----------------*/
+.boiteBas ul{
+    background: var(--blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+.boiteBas a{
+    text-decoration: none;
+    color: white;
+}
+
